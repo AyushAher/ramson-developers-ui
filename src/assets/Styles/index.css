@@ -1,0 +1,171 @@
+:root {
+  --golden-color: #ad9551;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background: linear-gradient(to bottom right, #1f1f1f, #1d1c1c, #1b1b1b);
+  color: whitesmoke;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+
+.navbar {
+  height: 50px;
+  position: sticky;
+  top: 2px;
+}
+
+.navbar a {
+  color: white;
+}
+
+/* NAVBAR */
+
+/* Hero Section */
+.hero-section {
+  height: calc(100vh - 50px);
+}
+.theme-color {
+  color: whitesmoke;
+}
+
+.theme-color > span {
+  color: var(--golden-color);
+}
+
+.hero-section h2 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.hero-section p {
+  width: 80%;
+  font-size: 1.25rem;
+  margin-top: 40px;
+}
+
+.hero-section img.logo {
+  height: 200px;
+}
+
+/* Hero Section */
+
+/* what-we-do */
+.what-we-do h4 {
+  font-size: 2rem;
+}
+.what-we-do h4 > span {
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+
+.what-we-do h6 {
+  font-size: 1.5rem;
+}
+.what-we-do h4 > span {
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+
+.cards-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+.cards-layout .custom-card {
+  width: 350px;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid var(--golden-color);
+  border-radius: 10%;
+  animation: glow 2s infinite alternate;
+}
+.cards-layout .custom-card h4 {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: var(--golden-color);
+  border-bottom: 1px solid whitesmoke;
+}
+.cards-layout .custom-card .card-number {
+  width: 50px;
+  height: 50px;
+  padding: 25px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  color: var(--golden-color);
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 12px 0 var(--golden-color);
+  }
+  10% {
+    box-shadow: 0 0 10px 0 var(--golden-color);
+  }
+  20% {
+    box-shadow: 0 0 8px 0 var(--golden-color);
+  }
+  30% {
+    box-shadow: 0 0 6px 0 var(--golden-color);
+  }
+  40% {
+    box-shadow: 0 0 4px 0 var(--golden-color);
+  }
+  50% {
+    box-shadow: 0 0 2px 0 var(--golden-color);
+  }
+  60% {
+    box-shadow: 0 0 4px 0 var(--golden-color);
+  }
+  70% {
+    box-shadow: 0 0 6px 0 var(--golden-color);
+  }
+  80% {
+    box-shadow: 0 0 8px 0 var(--golden-color);
+  }
+  90% {
+    box-shadow: 0 0 10px 0 var(--golden-color);
+  }
+  100% {
+    box-shadow: 0 0 12px 0 var(--golden-color);
+  }
+}
+
+/* what-we-do */
+
+/* Contact Form */
+form.contact-form {
+  width: 60%;
+  margin: auto;
+}
+/* Contact Form */
+
+/* Footer */
+footer {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 16px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+footer .social-link {
+  font-size: 2rem;
+}
+/* Footer */
