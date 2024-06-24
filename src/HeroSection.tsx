@@ -1,8 +1,8 @@
 export function HeroSection() {
   return (
     <>
-      <div className="hero-section d-flex justify-content-between align-items-center">
-        <div className="w-50 d-flex flex-column align-items-center justify-content-center">
+      <div className="hero-section d-flex">
+        <div className="w-auto d-flex flex-column align-items-center justify-content-center">
           <img src="logo-no-bg.png" className="logo" alt="" />
           <h2 className="theme-color">
             Crafting Code,
@@ -26,7 +26,7 @@ export function HeroSection() {
             Book Free Consultation *
           </a>
         </div>
-        <img className="w-50" src="/hero.svg" alt="" />
+        <img className="w-50 d-none d-md-block" src="/hero.svg" alt="" />
       </div>
     </>
   );
