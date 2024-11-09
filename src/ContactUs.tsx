@@ -57,7 +57,7 @@ export function ContactUs() {
           </div>
           <div className="my-4">
             <a
-              href="mailto:info@ramson-developers.com"
+              href="mailto:ayushaher118@gmail.com"
               className="btn btn-light"
             >
               Submit

@@ -20,7 +20,7 @@ export function HeroSection() {
             <span className="fw-bold">Get 1 hour consultation for Free!!*</span>
           </p>
           <a
-            href="mailto:info@ramson-developers.com"
+            href="mailto:ayushaher118@gmail.com"
             className="btn btn-outline-light"
           >
             Book Free Consultation *

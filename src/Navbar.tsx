@@ -35,7 +35,7 @@ export function Navbar() {
             </ul>
 
             <a
-              href="mailto:info@ramson-developers.com"
+              href="mailto:ayushaher118@gmail.com"
               className="btn btn-outline-light"
             >
               Book Free Consultation *
