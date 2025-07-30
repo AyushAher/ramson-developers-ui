@@ -4,7 +4,7 @@ export function Navbar() {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Ramson Developers
+            Aerovia Infrasec
           </a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -35,8 +35,8 @@ export function Navbar() {
             </ul>
 
             <a
-              href="mailto:ayushaher118@gmail.com"
-              className="btn btn-outline-light"
+              href="mailto:info@aerovia.co.in"
+              className="btn btn-outline-light navbar-action"
             >
               Book Free Consultation *
             </a>

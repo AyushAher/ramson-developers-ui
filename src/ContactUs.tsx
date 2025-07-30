@@ -57,7 +57,7 @@ export function ContactUs() {
           </div>
           <div className="my-4">
             <a
-              href="mailto:ayushaher118@gmail.com"
+              href="mailto:info@aerovia.co.in"
               className="btn btn-light"
             >
               Submit
