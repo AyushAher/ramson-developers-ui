@@ -9,7 +9,7 @@ export function HeroSection() {
             <span> Delivering Solutions</span>
           </h2>
           <p className="theme-color">
-            We at <span className="fw-bold">Ramson Developers</span> craft code
+            We at <span className="fw-bold">Aerovia Infrasec</span> craft code
             to deliver solutions that exceed your expectations. We deliver all
             types of management portals, e-commerce stores, Portfolio websites,
             and web designs.
@@ -20,8 +20,8 @@ export function HeroSection() {
             <span className="fw-bold">Get 1 hour consultation for Free!!*</span>
           </p>
           <a
-            href="mailto:ayushaher118@gmail.com"
-            className="btn btn-outline-light"
+            href="mailto:info@aerovia.co.in"
+            className="btn btn-outline-light  navbar-action"
           >
             Book Free Consultation *
           </a>
