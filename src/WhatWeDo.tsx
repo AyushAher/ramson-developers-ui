@@ -26,6 +26,10 @@ export function WhatWeDo() {
       body: "Get expert guidance from our tech gurus to navigate the ever-evolving IT landscape and discover the perfect tools to empower your team.",
     },
     {
+      title: "SAP Consulting",
+      body: "Get expert guidance from our tech gurus to navigate the ever-evolving SAP and ERP based solutions.",
+    },
+    {
       title: "DevSecOps Services",
       body: "Integrate security seamlessly into your development and operations processes with our DevSecOps expertise.",
     },
